@@ -314,8 +314,8 @@ Input/Output files:
     parser.add_argument(
         '--testdata-dir',
         type=str,
-        default='/Users/johnwei/Desktop/CVSD_final/1141_final/01_RTL/testdata',
-        help='Directory containing test data files (default: 1141_final/01_RTL/testdata)'
+        default='../1141_final/01_RTL/testdata',
+        help='Directory containing test data files (default: ../1141_final/01_RTL/testdata)'
     )
     parser.add_argument(
         '--compare',
