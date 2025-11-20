@@ -1,0 +1,132 @@
+Inverse Logarithm Table for GF(2^6)
+polynomial    | power 
+000000 (decimal: 0) | alpha^-1 
+000001 (decimal: 1) | alpha^ 0 
+000010 (decimal: 2) | alpha^ 1 
+000100 (decimal: 4) | alpha^ 2 
+001000 (decimal: 8) | alpha^ 3 
+010000 (decimal: 16) | alpha^ 4 
+100000 (decimal: 32) | alpha^ 5 
+000011 (decimal: 3) | alpha^ 6 
+000110 (decimal: 6) | alpha^ 7 
+001100 (decimal: 12) | alpha^ 8 
+011000 (decimal: 24) | alpha^ 9 
+110000 (decimal: 48) | alpha^10 
+100011 (decimal: 35) | alpha^11 
+000101 (decimal: 5) | alpha^12 
+001010 (decimal: 10) | alpha^13 
+010100 (decimal: 20) | alpha^14 
+101000 (decimal: 40) | alpha^15 
+010011 (decimal: 19) | alpha^16 
+100110 (decimal: 38) | alpha^17 
+001111 (decimal: 15) | alpha^18 
+011110 (decimal: 30) | alpha^19 
+111100 (decimal: 60) | alpha^20 
+111011 (decimal: 59) | alpha^21 
+110101 (decimal: 53) | alpha^22 
+101001 (decimal: 41) | alpha^23 
+010001 (decimal: 17) | alpha^24 
+100010 (decimal: 34) | alpha^25 
+000111 (decimal: 7) | alpha^26 
+001110 (decimal: 14) | alpha^27 
+011100 (decimal: 28) | alpha^28 
+111000 (decimal: 56) | alpha^29 
+110011 (decimal: 51) | alpha^30 
+100101 (decimal: 37) | alpha^31 
+001001 (decimal: 9) | alpha^32 
+010010 (decimal: 18) | alpha^33 
+100100 (decimal: 36) | alpha^34 
+001011 (decimal: 11) | alpha^35 
+010110 (decimal: 22) | alpha^36 
+101100 (decimal: 44) | alpha^37 
+011011 (decimal: 27) | alpha^38 
+110110 (decimal: 54) | alpha^39 
+101111 (decimal: 47) | alpha^40 
+011101 (decimal: 29) | alpha^41 
+111010 (decimal: 58) | alpha^42 
+110111 (decimal: 55) | alpha^43 
+101101 (decimal: 45) | alpha^44 
+011001 (decimal: 25) | alpha^45 
+110010 (decimal: 50) | alpha^46 
+100111 (decimal: 39) | alpha^47 
+001101 (decimal: 13) | alpha^48 
+011010 (decimal: 26) | alpha^49 
+110100 (decimal: 52) | alpha^50 
+101011 (decimal: 43) | alpha^51 
+010101 (decimal: 21) | alpha^52 
+101010 (decimal: 42) | alpha^53 
+010111 (decimal: 23) | alpha^54 
+101110 (decimal: 46) | alpha^55 
+011111 (decimal: 31) | alpha^56 
+111110 (decimal: 62) | alpha^57 
+111111 (decimal: 63) | alpha^58 
+111101 (decimal: 61) | alpha^59 
+111001 (decimal: 57) | alpha^60 
+110001 (decimal: 49) | alpha^61 
+100001 (decimal: 33) | alpha^62 
+case(poly)
+    6'd0: power = 6'd-1;
+    6'd1: power = 6'd0;
+    6'd2: power = 6'd1;
+    6'd4: power = 6'd2;
+    6'd8: power = 6'd3;
+    6'd16: power = 6'd4;
+    6'd32: power = 6'd5;
+    6'd3: power = 6'd6;
+    6'd6: power = 6'd7;
+    6'd12: power = 6'd8;
+    6'd24: power = 6'd9;
+    6'd48: power = 6'd10;
+    6'd35: power = 6'd11;
+    6'd5: power = 6'd12;
+    6'd10: power = 6'd13;
+    6'd20: power = 6'd14;
+    6'd40: power = 6'd15;
+    6'd19: power = 6'd16;
+    6'd38: power = 6'd17;
+    6'd15: power = 6'd18;
+    6'd30: power = 6'd19;
+    6'd60: power = 6'd20;
+    6'd59: power = 6'd21;
+    6'd53: power = 6'd22;
+    6'd41: power = 6'd23;
+    6'd17: power = 6'd24;
+    6'd34: power = 6'd25;
+    6'd7: power = 6'd26;
+    6'd14: power = 6'd27;
+    6'd28: power = 6'd28;
+    6'd56: power = 6'd29;
+    6'd51: power = 6'd30;
+    6'd37: power = 6'd31;
+    6'd9: power = 6'd32;
+    6'd18: power = 6'd33;
+    6'd36: power = 6'd34;
+    6'd11: power = 6'd35;
+    6'd22: power = 6'd36;
+    6'd44: power = 6'd37;
+    6'd27: power = 6'd38;
+    6'd54: power = 6'd39;
+    6'd47: power = 6'd40;
+    6'd29: power = 6'd41;
+    6'd58: power = 6'd42;
+    6'd55: power = 6'd43;
+    6'd45: power = 6'd44;
+    6'd25: power = 6'd45;
+    6'd50: power = 6'd46;
+    6'd39: power = 6'd47;
+    6'd13: power = 6'd48;
+    6'd26: power = 6'd49;
+    6'd52: power = 6'd50;
+    6'd43: power = 6'd51;
+    6'd21: power = 6'd52;
+    6'd42: power = 6'd53;
+    6'd23: power = 6'd54;
+    6'd46: power = 6'd55;
+    6'd31: power = 6'd56;
+    6'd62: power = 6'd57;
+    6'd63: power = 6'd58;
+    6'd61: power = 6'd59;
+    6'd57: power = 6'd60;
+    6'd49: power = 6'd61;
+    6'd33: power = 6'd62;
+endcase
